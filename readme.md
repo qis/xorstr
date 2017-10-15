@@ -18,11 +18,11 @@ int main() {
 You can verify that the string `xorstr_test_verify_error` does not exist in **Release** builds:
 
 ```sh
-~/workspace/xorstr_test strings build/llvm/release/main | grep xorstr_test_verify_error
-~/workspace/xorstr_test strings build/llvm/debug/main | grep xorstr_test_verify_error
+$ strings build/llvm/release/main | grep xorstr_test_verify_error
+$ strings build/llvm/debug/main | grep xorstr_test_verify_error
 xorstr_test_verify_error
-~/workspace/xorstr_test strings build/msvc/Release/main.exe | grep xorstr_test_verify_error
-~/workspace/xorstr_test strings build/msvc/Debug/main.exe | grep xorstr_test_verify_error
+$ strings build/msvc/Release/main.exe | grep xorstr_test_verify_error
+$ strings build/msvc/Debug/main.exe | grep xorstr_test_verify_error
 xorstr_test_verify_error
 ```
 
