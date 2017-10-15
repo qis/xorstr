@@ -26,4 +26,4 @@ xorstr_test_verify_error
 xorstr_test_verify_error
 ```
 
-[ADVobfuscator]: https://github.com/andrivet/ADVobfuscator/blob/master/ADVobfuscator/MetaRandom.h
+[ADVobfuscator]: https://github.com/andrivet/ADVobfuscator/blob/master/Lib/MetaRandom.h
